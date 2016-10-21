@@ -38,11 +38,14 @@ public class LinearSearch {
 	static int LinearSearch(int [] array, int length, int target) {
 		int i;
 		
+		// 순차 탐색 알고리즘의 구현부
 		for(i = 0; i < length; i++){
 			if(array[i] == target)
-				return i; //찾은 대상의 인덱스 값 반환
+				//찾은 대상의 인덱스 값 반환
+				return i; 
 		}
-		return -1; //찾지 못했음을 의미하는 값 반환
+		//찾지 못했음을 의미하는 값 반환
+		return -1; 
 	}
 }
 
